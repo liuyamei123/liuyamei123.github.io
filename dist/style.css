@@ -1,5 +1,6 @@
 
 .app-js-public-header---header---1vSKn_0 {
+  text-align: center;
   color: #666;
   height: 2.5rem;
   line-height: 2.5rem;
@@ -8,7 +9,6 @@
   left: 0;
   right: 0;
   font-size: 0.8rem;
-  background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center center no-repeat;
   background-size: auto 50%;
   z-index: 100;
 }
@@ -16,7 +16,10 @@
   font-size: 0.7rem;
   height: 0.75rem;
   line-height: 0.75rem;
-  margin: 0.425rem 0 0 0.45rem;
+  margin: 0 0 0 0.45rem;
+  float: left;
+  height: 2.5rem;
+  line-height: 2.5rem;
 }
 .app-js-public-header---header---1vSKn_0 .app-js-public-header---btnDownload---2YzlP_0 {
   float: right;

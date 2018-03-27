@@ -3,6 +3,7 @@
         <span :class="$style.left">
             <em>注册</em>&nbsp;|&nbsp;<em>登录</em>
         </span>
+        Smart pass
         <btn :class="$style.btnDownload">APP下载</btn>
     </div>
 </template>
@@ -18,6 +19,7 @@ export default {
 
 <style lang="scss" module>
   .header{
+    text-align:center;
     color: #666;
     height: 100px;
     line-height: 100px;
@@ -26,14 +28,17 @@ export default {
     left: 0;
     right: 0;
     font-size: 32px;
-    background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center center no-repeat;
+    // background: #fff url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center center no-repeat;
     background-size: auto 50%;
     z-index: 100;
     .left{
       font-size: 28px;
       height: 30px;
       line-height: 30px;
-      margin: 17px 0 0 18px;
+      margin: 0 0 0 18px;
+      float:left;
+      height:100px;
+      line-height:100px;
     }
     .btnDownload{
       float: right;
